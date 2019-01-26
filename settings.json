@@ -1,0 +1,35 @@
+{
+  // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+  "editor.tabSize": 2,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\""
+  },
+  // Should different brackets share a color group (Consecutive), or use their own color group (Independent)
+  "bracketPairColorizer.colorMode": "Consecutive",
+  // Define paired characters and their shared color group
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}",
+    [
+      "None",
+      "Gold",
+      "LightGreen",
+      "LightSeaGreen",
+      // "LightSkyBlue",
+      "Orchid",
+      "HotPink"
+    ],
+    "Red"
+  ],
+  // Prettier
+  "prettier.singleQuote": true,
+  // Customize color theme
+  "editor.tokenColorCustomizations": {},
+  "sync.gist": "a091b978c2699c754fccbbc70187b457",
+  "sync.removeExtensions": false
+}
